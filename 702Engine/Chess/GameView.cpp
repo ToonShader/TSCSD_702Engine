@@ -1401,7 +1401,7 @@ void RenderTarget::BuildFX()
 
 	ID3D10Blob* compiledShader = 0;
 	ID3D10Blob* compilationMsgs = 0;
-	HRESULT hr = D3DX11CompileFromFile(L"FX/Lighting.fx", 0, 0, 0, "fx_5_0", shaderFlags, 0, 0, &compiledShader, &compilationMsgs, 0);
+	HRESULT hr = D3DX11CompileFromFile(L"../702EngineCore/FX/Lighting.fx", 0, 0, 0, "fx_5_0", shaderFlags, 0, 0, &compiledShader, &compilationMsgs, 0);
 
 	if (compilationMsgs != 0)
 	{
