@@ -6,4 +6,4 @@ Note: Please see https://github.com/ToonShader/SpectralEngine for the rendering 
 Repository for the 702Engine and sample game.
 
 In-game screenshot of chess:
-
+![Alt text](Screenshot.jpg?raw=true "Title")
